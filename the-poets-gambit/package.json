@@ -1,0 +1,32 @@
+{
+  "name": "visualfoundry",
+  "version": "1.0.0",
+  "description": "Production-ready web platform that transforms uploaded images into animated video graphics.",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "video",
+    "graphics",
+    "express",
+    "ffmpeg",
+    "upload"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "ffmpeg-static": "^5.2.0",
+    "fluent-ffmpeg": "^2.1.2",
+    "helmet": "^7.1.0",
+    "multer": "^1.4.5-lts.1",
+    "nanoid": "^5.0.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  }
+}
